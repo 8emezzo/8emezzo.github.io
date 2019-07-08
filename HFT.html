@@ -1,48 +1,82 @@
 <HTML><PRE>
 ==============================================================
-                  B=12,358.5 | 25 | S=12,359.0
+                  B=12,354.0 | 25 | S=12,354.5
                              []
 ==============================================================
-                        :    | F01|    :-------------------98%
-                        :    | F10|    :-------------------96%
-                        :  0 |  10|  3 :-------------70%
-                        :  1 |  20|  5 :-----------58%
-                        :  3 |  30|  9 :---------45%
-                        :  6 |  50| 17 :---------45%
-                        : 14 |  80| 25 :-----28%
-                        : 26 | 130| 38 :---19%
-                        : 54 | 210| 62 :-07%
-                    04%+: 83 | 340| 76 :
-                    05%+:124 | 550|112 :
-                  20%+++:207 | 890|139 :
-                24%+++++:246 |1440|151 :
+                        :    | F01|    :---------------73%
+                        :    | F10|    :-------------69%
+                        :  1 |  10|  2 :-------------61%
+                        :  2 |  20|  5 :-------31%
+                        :  4 |  30|  8 :-------32%
+                        :  7 |  50| 16 :---------40%
+                        : 15 |  80| 24 :-----22%
+                        : 27 | 130| 37 :---16%
+                        : 55 | 210| 61 :-06%
+                    05%+: 84 | 340| 76 :
+                    06%+:126 | 550|112 :
+                20%+++++:208 | 890|139 :
+                24%+++++:247 |1440|150 :
 ==============================================================
-Sparo      = 0.19|117
+Sparo      = 0.19|119
 Disparita  = 0.0000
-VIX        = [0.012]
-Latenza    = ::::[2][lim=12]
+VIX        = #[0.053]
+Latenza    = [0][lim=12]
 ==============================================================
-App/loc/SRV= 4:46:05 | 23:13:21 | 23:13:19
-Freq.|tot. = 2.5|4.4
+App/loc/SRV= 1:25:34 | 23:13:32 | 23:13:31
+Freq.|tot. = 2.2|5.2
 WS/WSL lim = 39|36
 BM lim     = 0
-Account/PC = 9emezzo|W08OLD
+Account/PC = 8emezzo|W08HOME
 ==============================================================
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 943 entries, 2019-07-08 21:48:08.665283918 to 2019-07-08 23:13:29.271656513
+Data columns (total 28 columns):
+latenza           943 non-null float64
+delta_time        943 non-null float64
+price             943 non-null float64
+delta_price       943 non-null float64
+BS                943 non-null float64
+BS_count          943 non-null float64
+BS_delta_time     943 non-null float64
+BS_delta_price    943 non-null float64
+forza01           943 non-null float64
+forza10           943 non-null float64
+OB_10             943 non-null float64
+OB_20             943 non-null float64
+OB_30             943 non-null float64
+OB_50             943 non-null float64
+OB_80             943 non-null float64
+OB_130            943 non-null float64
+OB_210            943 non-null float64
+OB_340            943 non-null float64
+OB_550            943 non-null float64
+OB_890            943 non-null float64
+OB_1440           943 non-null float64
+sparo_index       943 non-null float64
+OB_550_B          943 non-null float64
+OB_550_S          943 non-null float64
+disparita         943 non-null float64
+VIX               943 non-null float64
+frequenza         943 non-null float64
+session           943 non-null float64
+dtypes: float64(28)
+memory usage: 213.6 KB
+None
 Inizio       0  0.1%
-OBL2_25      6  2.8%
-Orderbook   34 15.2%
-Cut         16  7.2%
-Append       6  2.9%
-Sort        11  5.0%
-Split        8  3.5%
-Dist        64 28.2%
-Merge       21  9.6%
-Calcoli     25 11.4%
-DF finale    9  4.3%
+OBL2_25      6  3.5%
+Orderbook   32 17.0%
+Cut         12  6.4%
+Append       5  2.9%
+Sort         9  4.9%
+Split        9  4.7%
+Dist        39 20.5%
+Merge       19  9.9%
+Calcoli     25 13.0%
+DF finale   10  5.4%
 Vix          0  0.0%
-Indici       0  0.2%
+Indici       0  0.3%
 Disparita    0  0.0%
-Print       15  6.9%
-End          6  2.7%
-TOTALE     227
+Print       16  8.6%
+End          5  2.9%
+TOTALE     193
 </PRE></HTML>
