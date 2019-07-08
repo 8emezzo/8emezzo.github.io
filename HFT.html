@@ -1,48 +1,82 @@
 <HTML><PRE>
 ==============================================================
-                  B=12,306.5 | 25 | S=12,307.0
-                             [-0.5]
+                  B=12,288.5 | 25 | S=12,289.5
+                             [-1.0, -2.0, 2.0, -3.0, 2.5]
 ==============================================================
-                        :    | F01|    :-------------------95%
-                        :    | F10|    :-------------66%
-                        :  2 |  10|  2 :-04%
-                  16%+++:  4 |  20|  3 :
-                  13%+++:  8 |  30|  6 :
-                  18%+++: 14 |  50| 10 :
-                  19%+++: 23 |  80| 16 :
-                  13%+++: 37 | 130| 28 :
-                    01%+: 59 | 210| 58 :
-                    08%+: 86 | 340| 73 :
-                  11%+++:130 | 550|104 :
-                  19%+++:206 | 890|139 :
-                24%+++++:248 |1440|153 :
+          52%+++++++++++:    | F01|    :
+        66%+++++++++++++:    | F10|    :
+            46%+++++++++:  2 |  10|  1 :
+          54%+++++++++++:  7 |  20|  2 :
+          56%+++++++++++:  9 |  30|  3 :
+              39%+++++++: 15 |  50|  7 :
+              36%+++++++: 22 |  80| 11 :
+                24%+++++: 38 | 130| 23 :
+                  15%+++: 58 | 210| 43 :
+                  11%+++: 88 | 340| 71 :
+                  17%+++:132 | 550| 93 :
+                  19%+++:204 | 890|138 :
+                24%+++++:247 |1440|152 :
 ==============================================================
-Sparo      = 0.19|117
+Sparo      = 0.18|112
 Disparita  = 0.0000
-VIX        = [0.017]
-Latenza    = ::[1][lim=12]
+VIX        = ######[0.326]
+Latenza    = ::::::::[4][lim=12]
 ==============================================================
-App/loc/SRV= 4:20:57 | 22:48:14 | 22:48:12
-Freq.|tot. = 3.4|4.4
+App/loc/SRV= 1:00:29 | 22:48:27 | 22:48:22
+Freq.|tot. = 10.0|5.1
 WS/WSL lim = 39|36
 BM lim     = 0
-Account/PC = 9emezzo|W08OLD
+Account/PC = 8emezzo|W08HOME
 ==============================================================
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 666 entries, 2019-07-08 21:48:08.665283918 to 2019-07-08 22:48:27.094615698
+Data columns (total 28 columns):
+latenza           666 non-null float64
+delta_time        666 non-null float64
+price             666 non-null float64
+delta_price       666 non-null float64
+BS                666 non-null float64
+BS_count          666 non-null float64
+BS_delta_time     666 non-null float64
+BS_delta_price    666 non-null float64
+forza01           666 non-null float64
+forza10           666 non-null float64
+OB_10             666 non-null float64
+OB_20             666 non-null float64
+OB_30             666 non-null float64
+OB_50             666 non-null float64
+OB_80             666 non-null float64
+OB_130            666 non-null float64
+OB_210            666 non-null float64
+OB_340            666 non-null float64
+OB_550            666 non-null float64
+OB_890            666 non-null float64
+OB_1440           666 non-null float64
+sparo_index       666 non-null float64
+OB_550_B          666 non-null float64
+OB_550_S          666 non-null float64
+disparita         666 non-null float64
+VIX               666 non-null float64
+frequenza         666 non-null float64
+session           666 non-null float64
+dtypes: float64(28)
+memory usage: 150.9 KB
+None
 Inizio       0  0.1%
-OBL2_25      6  2.8%
-Orderbook   34 15.2%
-Cut         16  7.2%
-Append       6  2.9%
-Sort        11  4.9%
-Split        7  3.5%
-Dist        63 28.2%
-Merge       21  9.6%
-Calcoli     25 11.4%
-DF finale    9  4.3%
+OBL2_25      6  3.5%
+Orderbook   33 17.1%
+Cut         12  6.5%
+Append       5  3.0%
+Sort         9  4.9%
+Split        9  4.7%
+Dist        38 19.9%
+Merge       19 10.0%
+Calcoli     25 13.2%
+DF finale   10  5.4%
 Vix          0  0.0%
-Indici       0  0.2%
+Indici       0  0.3%
 Disparita    0  0.0%
-Print       15  6.9%
-End          6  2.7%
-TOTALE     226
+Print       16  8.5%
+End          5  2.9%
+TOTALE     195
 </PRE></HTML>
