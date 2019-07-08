@@ -1,48 +1,82 @@
 <HTML><PRE>
 ==============================================================
-                  B=12,290.5 | 25 | S=12,291.0
+                  B=12,290.0 | 25 | S=12,290.5
                              []
 ==============================================================
-                        :    | F01|    :-03%
-                        :    | F10|    :-02%
-                        :  1 |  10|  2 :---18%
-                        :  2 |  20|  3 :---11%
-                  11%+++:  5 |  30|  4 :
-                  13%+++:  8 |  50|  6 :
-                        : 14 |  80| 14 :-02%
-                    05%+: 31 | 130| 28 :
-                        : 53 | 210| 56 :-03%
-                    03%+: 78 | 340| 74 :
-                    03%+:109 | 550|103 :
-                  15%+++:187 | 890|137 :
-                21%+++++:232 |1440|151 :
+                        :    | F01|    :-------------------95%
+                        :    | F10|    :-------------------90%
+                        :  0 |  10|  3 :---------------71%
+                        :  2 |  20|  4 :-----28%
+                        :  5 |  30|  6 :-06%
+                        :  8 |  50|  9 :-03%
+                        : 14 |  80| 16 :-09%
+                    01%+: 31 | 130| 30 :
+                        : 53 | 210| 58 :-04%
+                    01%+: 77 | 340| 75 :
+                    02%+:109 | 550|104 :
+                  15%+++:187 | 890|139 :
+                21%+++++:232 |1440|153 :
 ==============================================================
-Sparo      = 0.17|105
+Sparo      = 0.17|106
 Disparita  = 0.0000
-VIX        = [0.021]
-Latenza    = ::::::::::::::::::[9][lim=12]
+VIX        = [0.007]
+Latenza    = ::[1][lim=12]
 ==============================================================
-App/loc/SRV= 3:36:36 | 22:03:53 | 22:03:43
-Freq.|tot. = 1.9|4.4
-WS/WSL lim = 38|36
+App/loc/SRV= 0:16:10 | 22:04:08 | 22:04:07
+Freq.|tot. = 8.3|4.2
+WS/WSL lim = 39|36
 BM lim     = 0
-Account/PC = 9emezzo|W08OLD
+Account/PC = 8emezzo|W08HOME
 ==============================================================
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 216 entries, 2019-07-08 21:48:08.665283918 to 2019-07-08 22:04:07.893759727
+Data columns (total 28 columns):
+latenza           216 non-null float64
+delta_time        216 non-null float64
+price             216 non-null float64
+delta_price       216 non-null float64
+BS                216 non-null float64
+BS_count          216 non-null float64
+BS_delta_time     216 non-null float64
+BS_delta_price    216 non-null float64
+forza01           216 non-null float64
+forza10           216 non-null float64
+OB_10             216 non-null float64
+OB_20             216 non-null float64
+OB_30             216 non-null float64
+OB_50             216 non-null float64
+OB_80             216 non-null float64
+OB_130            216 non-null float64
+OB_210            216 non-null float64
+OB_340            216 non-null float64
+OB_550            216 non-null float64
+OB_890            216 non-null float64
+OB_1440           216 non-null float64
+sparo_index       216 non-null float64
+OB_550_B          216 non-null float64
+OB_550_S          216 non-null float64
+disparita         216 non-null float64
+VIX               216 non-null float64
+frequenza         216 non-null float64
+session           216 non-null float64
+dtypes: float64(28)
+memory usage: 48.9 KB
+None
 Inizio       0  0.1%
-OBL2_25      6  2.8%
-Orderbook   34 15.2%
-Cut         15  7.0%
-Append       6  2.9%
-Sort        10  4.8%
-Split        7  3.5%
-Dist        63 28.2%
-Merge       21  9.7%
-Calcoli     25 11.4%
-DF finale    9  4.3%
+OBL2_25      7  3.3%
+Orderbook   37 15.7%
+Cut         16  7.0%
+Append       7  3.1%
+Sort        13  5.5%
+Split       11  4.9%
+Dist        39 16.6%
+Merge       24 10.2%
+Calcoli     33 14.0%
+DF finale   11  5.0%
 Vix          0  0.0%
 Indici       0  0.2%
 Disparita    0  0.0%
-Print       15  7.1%
-End          6  2.7%
-TOTALE     226
+Print       27 11.4%
+End          6  2.9%
+TOTALE     237
 </PRE></HTML>
