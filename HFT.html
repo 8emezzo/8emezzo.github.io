@@ -1,48 +1,82 @@
 <HTML><PRE>
 ==============================================================
-                  B=12,299.5 | 25 | S=12,300.0
+                  B=12,315.0 | 25 | S=12,315.5
                              []
 ==============================================================
-                        :    | F01|    :---------------77%
-                        :    | F10|    :-----------51%
-                        :  2 |  10|  2 :-06%
-                    06%+:  5 |  20|  4 :
-                  11%+++:  8 |  30|  6 :
-                        : 11 |  50| 12 :-02%
-                        : 14 |  80| 21 :---18%
-                        : 28 | 130| 31 :-05%
-                        : 48 | 210| 58 :-09%
-                    03%+: 77 | 340| 72 :
-                    03%+:109 | 550|102 :
-                  17%+++:189 | 890|133 :
-                23%+++++:232 |1440|145 :
+  90%+++++++++++++++++++:    | F01|    :
+          58%+++++++++++:    | F10|    :
+                        :  1 |  10|  2 :-------35%
+                        :  2 |  20|  4 :-----29%
+                        :  3 |  30|  7 :---------41%
+                        :  6 |  50| 15 :---------45%
+                        :  9 |  80| 22 :---------42%
+                        : 18 | 130| 33 :-------31%
+                        : 40 | 210| 57 :---18%
+                        : 71 | 340| 72 :-01%
+                        : 99 | 550|110 :-05%
+                  15%+++:181 | 890|133 :
+                22%+++++:225 |1440|145 :
 ==============================================================
-Sparo      = 0.17|105
+Sparo      = 0.17|104
 Disparita  = 0.0000
-VIX        = ###[0.160]
-Latenza    = ::::::::::::::::::::[10][lim=12]
+VIX        = #[0.067]
+Latenza    = ::::::[3][lim=12]
 ==============================================================
-App/loc/SRV= 3:26:22 | 21:53:38 | 21:53:28
-Freq.|tot. = 2.1|4.5
+App/loc/SRV= 0:06:08 | 21:54:06 | 21:54:03
+Freq.|tot. = 0.3|6.2
 WS/WSL lim = 39|36
 BM lim     = 0
-Account/PC = 9emezzo|W08OLD
+Account/PC = 8emezzo|W08HOME
 ==============================================================
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 62 entries, 2019-07-08 21:48:08.665283918 to 2019-07-08 21:54:06.268715620
+Data columns (total 28 columns):
+latenza           62 non-null float64
+delta_time        62 non-null float64
+price             62 non-null float64
+delta_price       62 non-null float64
+BS                62 non-null float64
+BS_count          62 non-null float64
+BS_delta_time     62 non-null float64
+BS_delta_price    62 non-null float64
+forza01           62 non-null float64
+forza10           62 non-null float64
+OB_10             62 non-null float64
+OB_20             62 non-null float64
+OB_30             62 non-null float64
+OB_50             62 non-null float64
+OB_80             62 non-null float64
+OB_130            62 non-null float64
+OB_210            62 non-null float64
+OB_340            62 non-null float64
+OB_550            62 non-null float64
+OB_890            62 non-null float64
+OB_1440           62 non-null float64
+sparo_index       62 non-null float64
+OB_550_B          62 non-null float64
+OB_550_S          62 non-null float64
+disparita         62 non-null float64
+VIX               62 non-null float64
+frequenza         62 non-null float64
+session           62 non-null float64
+dtypes: float64(28)
+memory usage: 14.0 KB
+None
 Inizio       0  0.1%
-OBL2_25      6  2.9%
-Orderbook   33 15.3%
-Cut         15  6.9%
-Append       6  2.8%
-Sort        10  4.7%
-Split        7  3.5%
-Dist        63 28.8%
-Merge       21  9.7%
-Calcoli     24 11.3%
-DF finale    9  4.4%
+OBL2_25      5  3.8%
+Orderbook   28 18.1%
+Cut          9  5.7%
+Append       4  2.9%
+Sort         6  4.0%
+Split        6  4.2%
+Dist        37 23.5%
+Merge       14  9.4%
+Calcoli     18 11.6%
+DF finale    9  6.0%
 Vix          0  0.0%
-Indici       0  0.2%
+Indici       0  0.3%
 Disparita    0  0.0%
-Print       14  6.7%
-End          5  2.7%
-TOTALE     220
+Print       11  7.6%
+End          4  2.8%
+TOTALE     159
 </PRE></HTML>
