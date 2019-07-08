@@ -3,46 +3,80 @@
                   B=12,281.0 | 25 | S=12,281.5
                              []
 ==============================================================
-                        :    | F01|    :-----------55%
-                        :    | F10|    :-----------51%
-                        :  1 |  10|  3 :-----30%
-                        :  3 |  20|  4 :---16%
-                        :  5 |  30|  5 :-08%
-                    02%+:  8 |  50|  7 :
-                        : 13 |  80| 13 :-03%
-                    04%+: 32 | 130| 29 :
-                    03%+: 49 | 210| 46 :
-                    00%+: 76 | 340| 75 :
-                    00%+:105 | 550|105 :
-                  13%+++:183 | 890|140 :
-                  19%+++:228 |1440|154 :
+            46%+++++++++:    | F01|    :
+            46%+++++++++:    | F10|    :
+                22%+++++:  1 |  10|  1 :
+                27%+++++:  4 |  20|  2 :
+                27%+++++:  5 |  30|  3 :
+                  13%+++:  9 |  50|  7 :
+                    05%+: 14 |  80| 12 :
+                    09%+: 33 | 130| 28 :
+                    06%+: 51 | 210| 45 :
+                    02%+: 77 | 340| 74 :
+                    01%+:107 | 550|104 :
+                  14%+++:184 | 890|139 :
+                  20%+++:229 |1440|153 :
 ==============================================================
-Sparo      = 0.17|104
+Sparo      = 0.17|105
 Disparita  = 0.0000
 VIX        = [0.000]
-Latenza    = ::::[2][lim=12]
+Latenza    = ::[1][lim=12]
 ==============================================================
-App/loc/SRV= 3:34:36 | 22:01:52 | 22:01:50
-Freq.|tot. = 0.1|4.4
-WS/WSL lim = 38|36
+App/loc/SRV= 0:14:10 | 22:02:08 | 22:02:06
+Freq.|tot. = 3.6|4.3
+WS/WSL lim = 39|36
 BM lim     = 0
-Account/PC = 9emezzo|W08OLD
+Account/PC = 8emezzo|W08HOME
 ==============================================================
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 192 entries, 2019-07-08 21:48:08.665283918 to 2019-07-08 22:01:50.135504961
+Data columns (total 28 columns):
+latenza           192 non-null float64
+delta_time        192 non-null float64
+price             192 non-null float64
+delta_price       192 non-null float64
+BS                192 non-null float64
+BS_count          192 non-null float64
+BS_delta_time     192 non-null float64
+BS_delta_price    192 non-null float64
+forza01           192 non-null float64
+forza10           192 non-null float64
+OB_10             192 non-null float64
+OB_20             192 non-null float64
+OB_30             192 non-null float64
+OB_50             192 non-null float64
+OB_80             192 non-null float64
+OB_130            192 non-null float64
+OB_210            192 non-null float64
+OB_340            192 non-null float64
+OB_550            192 non-null float64
+OB_890            192 non-null float64
+OB_1440           192 non-null float64
+sparo_index       192 non-null float64
+OB_550_B          192 non-null float64
+OB_550_S          192 non-null float64
+disparita         192 non-null float64
+VIX               192 non-null float64
+frequenza         192 non-null float64
+session           192 non-null float64
+dtypes: float64(28)
+memory usage: 43.5 KB
+None
 Inizio       0  0.1%
-OBL2_25      6  2.8%
-Orderbook   34 15.2%
-Cut         15  7.0%
-Append       6  2.9%
-Sort        10  4.8%
-Split        7  3.5%
-Dist        63 28.3%
-Merge       21  9.7%
-Calcoli     25 11.4%
-DF finale    9  4.3%
+OBL2_25      7  3.3%
+Orderbook   36 15.8%
+Cut         15  6.9%
+Append       7  3.1%
+Sort        12  5.4%
+Split       10  4.7%
+Dist        39 17.0%
+Merge       23 10.0%
+Calcoli     31 13.8%
+DF finale   11  5.0%
 Vix          0  0.0%
 Indici       0  0.2%
 Disparita    0  0.0%
-Print       15  7.1%
-End          6  2.7%
-TOTALE     225
+Print       27 11.9%
+End          6  2.8%
+TOTALE     231
 </PRE></HTML>
