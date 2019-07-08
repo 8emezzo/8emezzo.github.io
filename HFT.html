@@ -1,48 +1,82 @@
 <HTML><PRE>
 ==============================================================
-                  B=12,299.0 | 25 | S=12,299.5
-                             []
+                  B=12,295.0 | 25 | S=12,295.5
+                             [-4.0]
 ==============================================================
-                    04%+:    | F01|    :
-                        :    | F10|    :-06%
-                        :  1 |  10|  2 :---------41%
-                        :  3 |  20|  4 :-----23%
-                  12%+++:  9 |  30|  7 :
-                20%+++++: 14 |  50|  9 :
-                24%+++++: 22 |  80| 14 :
-                  18%+++: 38 | 130| 26 :
-                    02%+: 60 | 210| 57 :
-                    10%+: 87 | 340| 71 :
-                  13%+++:132 | 550|102 :
-                  20%+++:207 | 890|138 :
-                24%+++++:249 |1440|152 :
+                        :    | F01|    :-----------------88%
+                        :    | F10|    :-----------------85%
+                        :  1 |  10|  2 :-----------52%
+                        :  4 |  20|  5 :---11%
+                    07%+:  9 |  30|  7 :
+                  15%+++: 14 |  50| 10 :
+                25%+++++: 24 |  80| 14 :
+                  16%+++: 38 | 130| 27 :
+                    02%+: 60 | 210| 58 :
+                    10%+: 87 | 340| 72 :
+                  14%+++:134 | 550|102 :
+                  20%+++:207 | 890|139 :
+                24%+++++:250 |1440|153 :
 ==============================================================
-Sparo      = 0.19|116
+Sparo      = 0.19|117
 Disparita  = 0.0000
-VIX        = [0.003]
-Latenza    = ::[1][lim=12]
+VIX        = #[0.056]
+Latenza    = [0][lim=12]
 ==============================================================
-App/loc/SRV= 4:23:58 | 22:51:14 | 22:51:13
-Freq.|tot. = 5.3|4.4
+App/loc/SRV= 1:03:29 | 22:51:27 | 22:51:27
+Freq.|tot. = 3.2|5.1
 WS/WSL lim = 39|36
 BM lim     = 0
-Account/PC = 9emezzo|W08OLD
+Account/PC = 8emezzo|W08HOME
 ==============================================================
+<class 'pandas.core.frame.DataFrame'>
+DatetimeIndex: 695 entries, 2019-07-08 21:48:08.665283918 to 2019-07-08 22:51:26.880352020
+Data columns (total 28 columns):
+latenza           695 non-null float64
+delta_time        695 non-null float64
+price             695 non-null float64
+delta_price       695 non-null float64
+BS                695 non-null float64
+BS_count          695 non-null float64
+BS_delta_time     695 non-null float64
+BS_delta_price    695 non-null float64
+forza01           695 non-null float64
+forza10           695 non-null float64
+OB_10             695 non-null float64
+OB_20             695 non-null float64
+OB_30             695 non-null float64
+OB_50             695 non-null float64
+OB_80             695 non-null float64
+OB_130            695 non-null float64
+OB_210            695 non-null float64
+OB_340            695 non-null float64
+OB_550            695 non-null float64
+OB_890            695 non-null float64
+OB_1440           695 non-null float64
+sparo_index       695 non-null float64
+OB_550_B          695 non-null float64
+OB_550_S          695 non-null float64
+disparita         695 non-null float64
+VIX               695 non-null float64
+frequenza         695 non-null float64
+session           695 non-null float64
+dtypes: float64(28)
+memory usage: 157.5 KB
+None
 Inizio       0  0.1%
-OBL2_25      6  2.8%
-Orderbook   34 15.2%
-Cut         16  7.2%
-Append       6  2.9%
-Sort        11  4.9%
-Split        7  3.5%
-Dist        63 28.2%
-Merge       21  9.6%
-Calcoli     25 11.4%
-DF finale    9  4.3%
+OBL2_25      6  3.5%
+Orderbook   33 17.0%
+Cut         12  6.5%
+Append       5  3.0%
+Sort         9  4.9%
+Split        9  4.7%
+Dist        38 19.9%
+Merge       19 10.0%
+Calcoli     25 13.1%
+DF finale   10  5.4%
 Vix          0  0.0%
-Indici       0  0.2%
+Indici       0  0.3%
 Disparita    0  0.0%
-Print       15  6.9%
-End          6  2.7%
-TOTALE     227
+Print       17  8.7%
+End          5  2.9%
+TOTALE     196
 </PRE></HTML>
