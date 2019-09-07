@@ -1,28 +1,28 @@
 <HTML><PRE>
 ===================================================================
-                        :    | F01|    :-----------54%
-                        :    | F10|    :-----------56%
-                        :  2 |  10|  6 :-----------56%
-                        :  3 |  20|  8 :-----------51%
-                        :  5 |  30| 11 :-------37%
-                        : 10 |  50| 14 :---18%
-                        : 17 |  80| 23 :---16%
-                        : 26 | 130| 47 :-----29%
-                        : 43 | 210| 70 :-----24%
-                    01%+:104 | 340|102 :
-                    10%+:162 | 550|134 :
-                  13%+++:217 | 890|167 :
-                  18%+++:281 |1440|194 :
+                        :    | F01|    :-----------------86%
+                        :    | F10|    :-----------------85%
+                        :  1 |  10|  8 :---------------78%
+                        :  2 |  20| 10 :-------------66%
+                        :  4 |  30| 13 :-----------51%
+                        : 10 |  50| 17 :-----27%
+                        : 16 |  80| 26 :-----24%
+                        : 25 | 130| 50 :-------33%
+                        : 42 | 210| 73 :-----27%
+                        :103 | 340|104 :000%
+                    08%+:162 | 550|137 :
+                  12%+++:217 | 890|170 :
+                  18%+++:281 |1440|197 :
 ===================================================================
-Price      = 10507.5 []
-Sparo      = **************[0.28][147]
+Price      = 10506.5 []
+Sparo      = **************[0.28][149]
 Disparita  = 0.0000
-VIX        = [0.000]
+VIX        = [0.008]
 WS/WSL [BM]= 39|39 [0]
-Freq.|tot. = 18.0|12.6
+Freq.|tot. = 15.1|12.6
 Latenza    = ::[2][lim=11]
 ===================================================================
-t-loc=20:41:24 t-srv=20:41:22 [9emezzo@W08WORK][t-app=4 days, 4:51:24]
+t-loc=20:42:24 t-srv=20:42:21 [9emezzo@W08WORK][t-app=4 days, 4:52:24]
 ===================================================================
 05:0 RSI 51.3 RSI% 0.0 ADX 7.4 ADX% -1.0 DI -2.4 MACD_cross -0.5 MACD_cross% 51.6
 05:1 RSI 51.3 RSI% 6.7 ADX 7.5 ADX% -1.0 DI -2.4 MACD_cross -1.0 MACD_cross% 42.5
@@ -60,17 +60,28 @@ AI          19 24.6%
 Print        4  5.2%
 End          2  3.0%
 TOTALE     79
-             [4]----   1   +++++[5]            
-           [6]------   5   ++++++++[8]         
-         [8]--------   15  ++++++[6]           
-    [12]------------   30  ++[2]               
-        [9]---------   60  +++++[5]            
-      [10]----------  120  ++++[4]             
-        [9]---------  240  +++++[5]            
-         [8]--------  480  ++++++[6]           
-      [10]----------  1440 ++++[4]             
+          [7]-------   1   ++[2]               
+         [8]--------   5   ++++++[6]           
+     [11]-----------   15  +++[3]              
+        [9]---------   30  +++++[5]            
+     [11]-----------   60  +++[3]              
+        [9]---------  120  +++++[5]            
+      [10]----------  240  ++++[4]             
+        [9]---------  480  +++++[5]            
+        [9]---------  1440 +++++[5]            
         [9]---------  4320 +++++[5]            
            [6]------ 10080 +[1]                
+min_max            min max
+minuti strategie          
+1      mediana       0   1
+       media         1   0
+       percentile8   1   0
+       percentile9   1   0
+       tempo         1   0
+       updown        1   0
+       mix           0   1
+       fibo          1   0
+       fibotempo     1   0
 min_max            min max
 minuti strategie          
 1      mediana       1   0
@@ -80,23 +91,12 @@ minuti strategie
        tempo         0   1
        updown        0   1
        mix           0   1
-       fibo          0   1
-       fibotempo     0   1
-min_max            min max
-minuti strategie          
-1      mediana       1   0
-       media         0   1
-       percentile8   1   0
-       percentile9   0   1
-       tempo         1   0
-       updown        0   1
-       mix           0   1
-5      mediana       0   1
-       media         0   1
+5      mediana       1   0
+       media         1   0
        percentile8   1   0
        percentile9   1   0
        tempo         0   1
-       updown        1   0
+       updown        0   1
        mix           0   1
 min_max            min max
 minuti strategie          
@@ -104,14 +104,14 @@ minuti strategie
        media         1   0
        percentile8   1   0
        percentile9   1   0
-       tempo         0   1
-       updown        1   0
-       mix           0   1
+       tempo         1   0
+       updown        0   1
+       mix           1   0
 15     mediana       1   0
-       media         0   1
+       media         1   0
        percentile8   1   0
        percentile9   1   0
-       tempo         0   1
+       tempo         1   0
        updown        0   1
        mix           0   1
 min_max            min max
@@ -120,14 +120,14 @@ minuti strategie
        media         1   0
        percentile8   1   0
        percentile9   1   0
-       tempo         1   0
+       tempo         0   1
        updown        0   1
-       mix           1   0
+       mix           0   1
 30     mediana       1   0
        media         1   0
        percentile8   1   0
        percentile9   1   0
-       tempo         1   0
+       tempo         0   1
        updown        1   0
        mix           1   0
 min_max            min max
@@ -137,14 +137,14 @@ minuti strategie
        percentile8   1   0
        percentile9   1   0
        tempo         0   1
-       updown        0   1
-       mix           1   0
+       updown        1   0
+       mix           0   1
 60     mediana       1   0
-       media         0   1
+       media         1   0
        percentile8   1   0
        percentile9   1   0
        tempo         0   1
-       updown        0   1
+       updown        1   0
        mix           1   0
 min_max            min max
 minuti strategie          
@@ -154,14 +154,14 @@ minuti strategie
        percentile9   0   1
        tempo         1   0
        updown        1   0
-       mix           0   1
-120    mediana       0   1
+       mix           1   0
+120    mediana       1   0
        media         1   0
        percentile8   1   0
-       percentile9   1   0
+       percentile9   0   1
        tempo         1   0
-       updown        1   0
-       mix           1   0
+       updown        0   1
+       mix           0   1
 min_max            min max
 minuti strategie          
 120    mediana       1   0
@@ -171,7 +171,7 @@ minuti strategie
        tempo         0   1
        updown        1   0
        mix           0   1
-240    mediana       0   1
+240    mediana       1   0
        media         0   1
        percentile8   1   0
        percentile9   1   0
@@ -189,7 +189,7 @@ minuti strategie
        mix           1   0
 480    mediana       1   0
        media         1   0
-       percentile8   0   1
+       percentile8   1   0
        percentile9   1   0
        tempo         1   0
        updown        0   1
@@ -201,7 +201,7 @@ minuti strategie
        percentile8   1   0
        percentile9   1   0
        tempo         0   1
-       updown        1   0
+       updown        0   1
        mix           0   1
 1440   mediana       1   0
        media         1   0
