@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Report Regionali</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+  body {
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+    background: #e6f2ff;
+    color: #333;
+  }
+
+  h1, h2 {
+    text-align: center;
+    color: #1e2a38;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #2a3d59;
+  }
+
+  .button-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 140px;
+    max-width: 200px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    filter: brightness(1.05);
+  }
+
+  .card a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: block;
+    text-align: center;
+  }
+
+  .aggregato {
+    background-color: #0077cc; /* blu */
+  }
+
+  .provincia {
+    background-color: #2ecc71; /* verde */
+  }
+
+  /* 🔥 Stile per il bottone "Passa a ISEE" */
+  .isee-button {
+    background-color: #e63946; /* rosso acceso */
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .isee-button:hover {
+    background-color: #d62828;
+  }
+</style>
+
+</head>
+<body>
+
+  <h1>📊 Andamento campagna 730/25 
+    <a class="isee-button" href="../HTML_ISEE/index.html">Passa a ISEE -></a>
+  </h1>
+
+<h2>Aggregati</h2>
+<div class="button-row">
+  <div class="card aggregato"><a href="nordest.html">CAAF Nord Est</a></div>
+  <div class="card aggregato"><a href="veneto.html">CAF Veneto</a></div>
+  <div class="card aggregato"><a href="comprensori.html">Province</a></div>
+</div>
+
+<h2>Sedi nelle province</h2>
+<div class="button-row">
+  <div class="card provincia"><a href="BL.html">Belluno</a></div>
+  <div class="card provincia"><a href="PD.html">Padova</a></div>
+  <div class="card provincia"><a href="RO.html">Rovigo</a></div>
+  <div class="card provincia"><a href="SERTV.html">Treviso</a></div>
+  <div class="card provincia"><a href="VE.html">Venezia</a></div>
+  <div class="card provincia"><a href="VI.html">Vicenza</a></div>
+  <div class="card provincia"><a href="VR.html">Verona</a></div>
+    <div style="height: 1px; width: 10%; background-color: #ccc; margin: 0.5rem 0;"></div>
+  <div class="card provincia"><a href="BZ.html">Bolzano</a></div>
+  <div class="card provincia"><a href="TN.html">Trento</a></div>
+    <div style="height: 1px; width: 10%; background-color: #ccc; margin: 0.5rem 0;"></div>
+  <div class="card provincia"><a href="G.html">Friuli</a></div>
+</div>
+
+</body>
+</html>
