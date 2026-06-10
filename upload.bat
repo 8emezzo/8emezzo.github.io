@@ -1,5 +1,4 @@
-REM Naviga nella cartella del progetto
-REM Set-Location "C:\Users\simone.venturin\Dropbox\CAAF\config\Bot\p\8emezzo.github.io"
+REM La working directory è impostata dallo scheduler (config.json: cwd = jobs/8emezzo.github.io)
 
 REM Esegui git pull per aggiornare la cartella locale dai cambiamenti remoti
 git pull origin main
